@@ -242,7 +242,10 @@ header {
       margin-right: 20px;
       &:last-child {
         margin-right: 15px;
-      }  
+      } 
+      @media (max-width:768px){
+        width: 100%;
+      }
     }
   }
 }
